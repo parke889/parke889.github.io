@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Silver Dollar';
+    src: url('SilverDollar.woff2') format('woff2'),
+        url('SilverDollar.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+ 
+
+.heading {
+    background-color: rgb(138, 255, 92);
+    font-family: 'Silver Dollar';
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 11px;
+}
+
+
+.subheading{
+    font-family: "Silver Dollar";
+    font-size:18px;
+    padding: 22px;
+    margin-bottom: 11px;
+    text-align: center;
+}
+.image-container {
+    display: inline-block;
+    margin: 2px;
+    position: relative; 
+}
+
+img {
+    width: 224px;
+    height: 389px;
+}
+
+.txt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 224px;
+    height: 389px;
+    display: none; 
+    background-color: rgba(255, 99, 229, 0.407);
+    font-family: "rigid-square", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: #ffffff; 
+    text-align: left;
+    padding: 22px; 
+    box-sizing: border-box; 
+}
+.image-container:hover .txt {
+    display: block;
+}
+
+
+.image-container2 {
+    display: inline-block;
+    margin: 2px;
+    position: relative; 
+}
+.image-container2:hover .txt {
+    display: block;
+}
+.image-container2{
+    float: right;
+}
+
+.image-container3 {
+    display: inline-block;
+    margin: 2px;
+    position: relative; 
+}
+.image-container3:hover .txt {
+    display: block;
+}
+
