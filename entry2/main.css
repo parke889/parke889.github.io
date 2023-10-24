@@ -1,5 +1,153 @@
-body {
+.container{
+  width:100%;
+z-index: 1;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.speaker {
+  width: 100%;
+  height: 211px;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+
+.section1 {
+  width: 100%;
+  height: 666px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section2 {
+  width: 100%;
+  height: 666px;
+  background-image: url(imgs/test.jpeg);
+  background-size: 99.9% 99.9%;
+  opacity: .5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section3 {
+  width: 100%;
+  height: 666px;
+  background-image: url(imgs/icecream.png);
+  background-size: 99.9% 99.9%;
+  opacity: .5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section4 {
+  width: 100%;
+  height: 666px;
+  background-image: url(imgs/mart.jpeg);
+  background-size: 99.9% 99.9%;
+  opacity: .5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section5 {
+  width: 100%;
+  height: 666px;
+  background-image: url(imgs/bookstore.jpeg);
+  background-size: 99.9% 99.9%;
+  opacity: .5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading-1 {
+  padding-top: 31px;
+  padding-bottom: 131px;
+  color: rgba(240, 248, 255, 0.35);
+  text-align: center;
+  font-size: 145px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+
+.heading-2 {
+  padding-top: 31px;
+  padding-bottom: 131px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.audio {
+  margin-top: 11px;
+}
+
+/* Hide the audio initially */
+.audio {
+  display: none;
+}
+
+/* Show the audio on hover */
+.section2:hover .audio {
+  display: flex;
+  flex-direction: column;
+  margin-top: 422px;
+  animation-duration: .5s;
+}
+
+.section3:hover .audio {
+  display: flex;
+  flex-direction: column;
+  margin-top: 422px;
   
-  font-family: 'Exo 2', sans-serif;
+}
+
+.section4:hover .audio {
+  display: flex;
+  flex-direction: column;
+  margin-top: 422px;
+  
+}
+.section5:hover .audio {
+  display: flex;
+  flex-direction: column;
+  margin-top: 422px;
+  
+}
+.section2:hover {
+  opacity: 1;
+
+}
+
+.section3:hover {
+  opacity: 1;
+
+}
+
+.section4:hover {
+  opacity: 1;
+
+}
+.section5:hover {
+  opacity: 1;
 
 }

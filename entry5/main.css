@@ -1,0 +1,322 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: rgb(255, 150, 136);
+    margin: 0;
+    flex-grow: 1; 
+  
+}
+.toggle-button {
+    width: 61px;
+    height: 61px;
+    top: 5%;
+    z-index: 3;
+    background-color: #42b3ff;
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 33px;
+    cursor: pointer;
+    margin: .5px;
+    transition: background-color 3s, transform 3s;
+    position: absolute;
+    right: 25%;
+    transform: translateX(25%);
+}
+
+
+.toggle-button:hover {
+    background-color: #ffffff4d;
+    transform: scale(12.2);    
+    z-index: 2;
+
+}
+    
+
+
+.text1{   z-index: 2;
+
+
+}
+
+.circle:hover ~ .circle1 {
+    opacity: 1;
+    border-color: rgb(0, 255, 110); /* Change border color for circle1 */
+}
+
+
+.circle:hover ~ .circlemid {
+    opacity: 1;
+    border-color: rgb(106, 255, 0); /* Change border color for circle1 */
+}
+
+
+.circle:hover ~ .circle2 {
+    opacity: 1;
+    border-color: rgb(255, 255, 0); /* Change border color for circle2 */
+}
+
+.circle:hover ~ .circle3 {
+    opacity: 1;
+    border-color: rgb(255, 0, 234); /* Change border color for circle2 */
+}
+
+.circle:hover ~ .circle4 {
+    opacity: 1;
+    border-color: rgb(157, 0, 255);
+}
+
+
+.circle:hover ~ .circle5 {
+    opacity: 1;
+    border-color: rgb(102, 0, 255);
+}
+.circle:hover ~ .circle11 {
+    opacity: 1;
+    border-color: rgb(0, 94, 255); /* Change border color for circle2 */
+}
+.circle {
+    top: 633px;
+    width: 332px;
+    height: 332px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 22px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 4;
+}
+
+.circle1, .circlemid, .circle2, .circle3, .circle4, .circle5, .circle11 {
+    width: 332px;
+    height: 332px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0;
+    z-index: 3;
+}
+
+.circle1 {
+    top: 633px;
+    left: 25px;
+    transition: opacity 0.2s;
+    border-color: rgb(0, 255, 110);
+}
+
+.circlemid {
+    top: 633px;
+    left: 65px;
+    transition: opacity 0.2s;
+    border-color: rgb(55, 255, 0);
+}
+
+.circle2 {
+    top: 633px;
+    left:117px;
+    transition: opacity 0.2s .1s ;
+    border-color: rgb(255, 255, 0); 
+}
+
+.circle3 {
+    top: 633px;
+    left: 186px;
+    transition: opacity 0.2s .2s ;
+    border-color: rgb(255, 0, 234);
+}
+
+.circle4 {
+    top: 633px;
+    left: 216px;
+    transition: opacity 0.2s .2s ;
+    border-color: rgb(157, 0, 255);
+}
+.circle5 {
+    top: 633px;
+    left: 286px;
+    transition: opacity 0.2s .2s ;
+    border-color: rgb(102, 0, 255);
+}
+
+.circle11 {
+    top: 633px;
+    left: 342px;
+    transition: opacity .2s .3s;
+    border-color: rgb(0, 94, 255); 
+}
+
+.spiner {
+    width:500px;
+    height:500px;
+    position: absolute;
+    top: 1355px;
+    right: 132px;
+    z-index: 5;
+    margin-left: 5%;
+}
+
+.Pinwheel Image {  
+    position: absolute;
+    top: 1355px;
+    right: 132px; 
+    margin-left: 5%;
+}
+.spiner:hover {
+    animation: ani 0.00001s linear infinite;
+    transform-origin: center;}
+
+.circle12 {
+    width:355px;
+    height:355px;
+    background-color: rgba(0, 128, 0, 0);
+    border-radius: 50%;  
+    border: 115px solid rgba(46, 138, 0, 0);
+    position: absolute;
+    top: 1313px;
+    right: 89px;
+    transition-duration: 1.5s;
+    z-index: 4;
+
+}
+.spiner:hover ~ .circle12 {
+    opacity: 1;
+    position: absolute;
+    background-color: rgb(165, 220, 0);
+    border: 115px solid rgba(8, 165, 0, 0.879)
+}
+
+
+@keyframes ani {
+    to {
+        transform: rotate(360deg);
+        transform-origin: center;
+
+    }
+}
+
+.bg1 {
+    position:flex;
+    left:0px;
+    width: 50vw;
+    max-height: 630px;
+    z-index: 1;
+}
+
+.bg1 img {
+    position: flex;
+    left: 0px;
+    width: 50vw; 
+    max-height: 630px;
+    margin:0px;
+    z-index: 1;
+}
+.bg2 {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    background-color: rgb(136, 255, 197);
+    min-height: 333px;
+    margin: 0;
+    flex-grow: 1; 
+}
+.bg2 img {
+    position: flex;
+    flex-direction: row-reverse;
+    width: 50vw; 
+    min-height: 311px;
+    min-width: 33vw;
+    margin:0px;
+    -ms-flex-align: end;
+    right:0px;
+
+}
+
+.bg3 {
+    display:flex;
+    flex-direction: row;
+    width: 50vw; 
+    position: relative;
+    background-color:black;
+}
+.bg3 img {
+    position: flex;
+    left: 0px;
+    width: 50vw; 
+    max-height: 630px;
+    margin:0px;
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+        
+    }
+    
+    .circle12 {
+        position:absolute;
+        top: 813px;
+        right: 89px;
+    }
+
+    
+    .spiner {
+        position: absolute;
+        top: 855px;
+        right: 2px; 
+    }
+
+    .circle, .circlemid, .circle1, .circle2, .circle3, .circle4, .circle5 .circle11 {
+        width: 132px;
+        height: 132px;
+        border-width:15px;
+
+    }
+
+    .circle {
+        top: 39%;
+        transition: .5s;
+
+    }
+
+    .circle1 {
+        left: 0;
+        top: 345px;
+    }
+
+    .circlemid {
+        left: 0;
+        top: 369px;
+    }
+
+    .circle2 {
+        left: 0;
+        top: 395px;
+    }
+
+    .circle3 {
+        left: 0;
+        top: 425px;
+    }
+
+    .circle4 {
+        left: 0;
+        top: 445px;
+    }
+
+    .circle5 {
+        left: 0;
+        top: 465px;
+    }
+
+    .circle11 {
+        left: 0;
+        top: 485px;
+    }
+
+  
+}
