@@ -1,7 +1,25 @@
-.button-container {
+.button-container{
     position: fixed;
     top: 7px;
     right: 4px;
     left: 4px;
-    z-index: 999;
+}
+
+.main {
+    background-color: rgb(255, 230, 142);
+    border: 1.5px solid rgb(104, 62, 0);
+    border-radius: 25px;
+    color: #482b00;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "indivisible", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12px;
+    padding: 0 10px;
+    line-height: 25px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 4px;
 }
