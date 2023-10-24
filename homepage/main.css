@@ -1,0 +1,10 @@
+.entries{
+    display: flex;
+}
+
+.item-1{
+    width:55px;
+    height: 111px;
+    background-color: red;
+    display: flex;
+}
