@@ -1,0 +1,16 @@
+body{
+    background-color: skyblue;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.title{
+    color: aliceblue;
+    font-family: "crayonize", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 211px;
+}
