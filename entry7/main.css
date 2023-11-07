@@ -57,9 +57,11 @@ body{
   }
 
   .container2 {
-    z-index: 2;
+    z-index: 99;
   }
   .container3 {
+    position: relative;
+    top:22px;
     height: 233px;
     display: flex;
     z-index: 3;
