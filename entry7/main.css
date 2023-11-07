@@ -61,8 +61,8 @@ body{
   }
   .container3 {
     position: relative;
-    top:22px;
-    height: 233px;
+    top: 30%;
+    height: 30%;
     display: flex;
     z-index: 3;
     justify-content: space-between;  /* Adjust as needed for spacing */
