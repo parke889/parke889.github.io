@@ -1,16 +1,57 @@
 body{
     background-color: skyblue;
-    display: flex;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
   }
 
 .title{
+    margin-top: 166px;
+    margin-left: 33px;
     color: aliceblue;
     font-family: "crayonize", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 211px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+
+@keyframes sunspin {
+    .1% {
+      transform:rotate(1turn);
+    }
+   
+  }
+
+
+  
+  #Layer_2 {
+    animation: sunspin 7s  infinite;
+    height:255px;
+    position: absolute;
+    top:1px;
+    z-index: -1;
+  }
+  #Layer_3 {
+    animation: cloudmove 33s  infinite;
+    height:255px;
+    position: relative;
+    right:1px;
+    left:822px;
+ 
+  }
+
+@keyframes cloudmove {
+    from {right :1px;}
+    to { left :1331px;}
+
+}
+
+#Layer_4 {
+    height:255px;
+    position: relative;
+    right:1px;
+    left:22px;
+ 
+  }
