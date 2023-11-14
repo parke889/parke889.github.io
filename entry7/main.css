@@ -79,6 +79,7 @@ body{
 .hidden-items {
     height: 155px;
     display: flex;
+    
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
