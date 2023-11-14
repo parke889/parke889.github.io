@@ -34,12 +34,9 @@
   }
 body {
     background-image: url(imgs/ro.jpg);
-    /* Set the size behavior of the background image */
-    background-size: 99.9%; /* or 'contain' or specific dimensions */
-    /* Control how the image repeats, if needed */
-    background-repeat: no-repeat; /* or 'repeat-x', 'repeat-y', 'repeat' */
-    /* Set the position of the background image */
-    background-position: top; /* or specific coordinates */
+    background-size: 99.9%; 
+    background-repeat: no-repeat; 
+    background-position: top; 
     background-color: black;
     font-family: Arial, sans-serif;
 }
