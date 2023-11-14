@@ -79,7 +79,6 @@ body{
 .hidden-items {
     height: 155px;
     display: flex;
-    
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
@@ -90,3 +89,44 @@ body{
     height:auto;
     margin: 1px;
 }
+
+.container4{
+    color: aliceblue;
+    font-family: "ohno-softie-variable", sans-serif;
+    font-style: Light;
+    font-variation-settings: "wght" 300;
+    font-size: 19px;
+    display: flex;
+    justify-content:left;
+    align-items: left;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    z-index: 99;
+    
+}
+
+h3 {
+    font-size: 35px;
+}
+
+
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 211%;
+    }
+    #Layer_2 {
+        width: 45%;
+    }
+    .hidden-items {
+        margin-top: 41px;
+        margin-bottom: 61px;        
+    }
+
+    .container4 {
+        max-width: 83dvw;
+        align-items: center;
+
+    }
+}
+
