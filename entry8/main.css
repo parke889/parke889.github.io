@@ -6,22 +6,24 @@
       align-items: center;
       height: 100vh;
       margin: 0;
+      background-color: black;
     }
 
     #tv-frame {
       position: relative;
-      width: 400px;
-      height: 300px;
-      border: 20px solid #000;
-      border-radius: 20px;
+      width: 500px;
+      height: 400px;
       overflow: hidden;
     }
 
     #tv-screen {
+      border-radius: 35px;
       width: 100%;
       height: 100%;
       object-fit: cover;
       display: none;
+      filter: grayscale(.3);
+      filter: contrast(51%);
     }
 
     #power-button {
@@ -35,4 +37,5 @@
       padding: 10px 20px;
       border-radius: 50%;
       cursor: pointer;
+  
     }
