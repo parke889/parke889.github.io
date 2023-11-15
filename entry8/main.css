@@ -1,38 +1,38 @@
 
-body {
-    background-color:  black;
-  }
-  
-  section {
-    display:  flex;
-    flex-direction:  column;
-    justify-content: center;
-    align-items:  center;
-    height:  100vh;
-  }
-  
-  .button {
-    padding: 20px 50px;
-    border-radius: 30px;
-    background-color:  white;
-    color:  black;
-    font-size:  60px;
-    font-size: 20px;
-    text-align:  center;
-    text-align:  center;
-    transition:  all 100ms;
-  }
-  
-  .button:hover {
-    background-color: #DEB887;
-    cursor:  pointer;
-  }
-  
-  .buttonOn {
-    background-color:  black;
-    color:  white;
-  }
-  
-  .light {
-    background-color: papayawhip;
-  }
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    #tv-frame {
+      position: relative;
+      width: 400px;
+      height: 300px;
+      border: 20px solid #000;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    #tv-screen {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: none;
+    }
+
+    #power-button {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #ff0000;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 50%;
+      cursor: pointer;
+    }

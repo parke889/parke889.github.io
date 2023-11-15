@@ -1,10 +1,15 @@
 
 let body = document.body;
 
-function turnonlight() {
-  body.classList.toggle("light");
-  button.classList.toggle("buttonOn");
-}
 
-let button = document.querySelector(".button");
-button.addEventListener("click", turnonlight);
+
+function toggleImage() {
+  const tvScreen = document.getElementById("tv-screen");
+
+  if (tvScreen.style.display === "none") {
+    tvScreen.src = "imgs/test.jpeg"; 
+    tvScreen.style.display = "block";
+  } else {
+    tvScreen.style.display = "none";
+  }
+}
