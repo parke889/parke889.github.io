@@ -1,0 +1,73 @@
+body {
+    cursor: url(imgs/cursor.png),pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 3300vh;
+    margin: 0;
+    background-image: url(imgs/bg_flooring.jpeg);
+    background-size: 31%;
+}
+
+
+#coverImage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('imgs/ex.png'); 
+    background-size: cover;
+    opacity: 1;
+    z-index: 9999;
+    transition: opacity 2s ease-out; 
+}
+
+#intro {
+    position: fixed;
+    top: 49.9vh;
+    left: 49.9vw;
+    width: 299px;
+    text-align: center;
+    font-family: "sketchnote-text", sans-serif;
+    font-weight: 700;
+    color: white;
+    font-style: normal; 
+    font-size: 33vw;
+}
+
+#clearButton {
+    position: fixed;
+    z-index: 2;
+    top:25px;
+    right: 19.9%;
+    text-align: center;
+    font-family: "sketchnote-text", sans-serif;
+    font-weight: 700;
+    font-style: normal;  
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    background-color:rgb(255, 122, 120);
+    border: 5px solid rgb(255, 122, 120);
+}
+
+
+.pattern {
+    display: flex;
+    position: absolute;
+    top:1px;
+    z-index: 1;
+}
+
+
+canvas {
+    position: fixed;
+    z-index: 1;
+    left:151px;
+    border-left:  33px solid #314268;
+    border-right: 33px solid #314268;
+    border-top: 19.9px solid #314268;
+    border-bottom: 19.9px solid #314268;
+    background-image: url(imgs/bg_sand.jpeg);
+}
+
