@@ -1,6 +1,7 @@
 body {
     background-color: red;
-    margin: 0; /* Reset default margin */
+    margin: 0; 
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .bartop {
@@ -58,7 +59,7 @@ body {
     padding: 2%;
 }
 
-.toy1, .toy2, .toy3, .toy4, .toy5, .toy6, .toy7, .toy8,.toy9, .toy10 {
+.toy1, .toy2, .toy3, .toy4, .toy5, .toy6, .toy7, .toy8,.toy9, .toy10, .toy11 {
     width: 20%;
     height: 10%;
     transition: transform 0.3s ease-in-out;
@@ -66,11 +67,31 @@ body {
 
 }
 
-.toy6, .toy7, .toy8,.toy9, .toy10 {
+.toy6, .toy7, .toy8,.toy9, .toy10, .toy11 {
     padding-bottom: 99px;
 }
 
 .toy1:hover, .toy2:hover, .toy3:hover, .toy4:hover, .toy5:hover, .toy6:hover, .toy7:hover, .toy8:hover,
-.toy9:hover, .toy10:hover {
+.toy9:hover, .toy10:hover, .toy11:hover {
     transform: scale(1.3);
+}
+
+.instruction {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff; 
+    font-size: 25px;
+    padding-bottom: 99px;
+    margin-top:0px;
+
+}
+
+.mysterybox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
 }
