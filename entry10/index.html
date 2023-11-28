@@ -11,8 +11,8 @@
         <img src="imgs/Asset 1.png">
     </div>
 
-    <div class="container">
-        <img id="box" src="imgs/happymeal.png" onclick="changeImage()">
+    <div class="container" id="dropContainer" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="box" src="imgs/happymeal.png" draggable="true" ondragstart="drag(event)" onclick="changeImage()">
     </div>
     
     <div class="barbottom">
