@@ -1,0 +1,39 @@
+body {
+    background-color: red;
+    margin: 0; /* Reset default margin */
+}
+
+.bartop {
+    width: 100vw;
+    height: auto;
+    position: fixed;
+    top: -15px;
+    left: 0px;
+    background-image: url(imgs/Asset\ 1.png);
+}
+
+.barbottom {
+    width: 100vw;
+    height: auto;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-image: url(imgs/Asset\ 2.png);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the container take the full height of the viewport */
+}
+
+#box {
+    width: 527px;
+    height: auto;
+    transition: transform 0.3s; /* Add a smooth transition effect */
+}
+
+#box:hover {
+    transform: scale(1.04); /* Increase the scale on hover */
+}
