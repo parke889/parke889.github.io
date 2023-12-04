@@ -94,13 +94,14 @@ body {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    margin-bottom: 9%;
 }
 
 .bgtext, .bgtext2 {
     color:white;
     position: absolute;
     font-size: 211px;
-    z-index: -999;
+    z-index: 999;
     font-family: "sketchnote-text", sans-serif;
 font-weight: 400;
 font-style: italic;
@@ -108,8 +109,19 @@ font-style: italic;
 
 .bgtext {
     left:1px;
+
 }
 
 .bgtext2 {
+
     right:46px;
+
+}
+
+@media (max-width: 788px) {
+    .bgtext, .bgtext2 {
+        font-size: 65px;
+        top: 53px;
+        margin-top: 2%;
+    }
 }
