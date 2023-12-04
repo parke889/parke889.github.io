@@ -5,7 +5,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="main.css">
-    <title>Crystal's Harmonical Collection</title>
+    <title>Entry 1</title>
+    <style>
+      /* Add styles for the hidden images */
+      .hidden-image {
+          display: none;
+          position: absolute;
+          /* Set the position of the image */
+          top: 50px;
+          left: 50px;
+          /* Add additional styling as needed */
+      }
+
+      /* Define hover areas to make the hidden images appear */
+      .hover-area1:hover + .hidden-image,
+      .hover-area2:hover + .hidden-image {
+          display: block;
+      }
+  </style>
   </head>
   <body>
     <div class="button-container">

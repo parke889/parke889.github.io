@@ -25,24 +25,32 @@
   left: 4px;
 }
 .container{
-  width:100%;
-z-index: 1;
-}
-
-.container{
   display: flex;
-  flex-wrap: wrap;
+    width:100%;
+z-index: 1;
+flex-wrap: wrap;
+
 }
 
+.text {
+  display: inline-block;
+  font-family: "sketchnote-text", sans-serif;
+font-weight: 400;
+font-style: italic;
+color: white;
+font-size: 91px;
+margin: 3px;
+justify-content: center;
+}
 
 .section1 {
   width: 100%;
   height: 666px;
-  background-color: blueviolet;
+  background-color:rgb(68, 165, 68);
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+
 }
 
 .section2 {
@@ -92,18 +100,6 @@ z-index: 1;
   flex-direction: column;
 }
 
-.heading-1 {
-  padding-top: 31px;
-  padding-bottom: 131px;
-  color: rgba(240, 248, 255, 0.35);
-  text-align: center;
-  font-size: 145px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  display: flex;
-  flex-direction: row;
-
-
-}
 
 
 .heading-2 {
@@ -150,21 +146,94 @@ z-index: 1;
   margin-top: 422px;
   
 }
-.section2:hover {
+
+
+.section2:hover, .section3:hover, .section4:hover,.section5:hover {
   opacity: 1;
 
 }
 
-.section3:hover {
-  opacity: 1;
 
+.text:nth-child(8) {
+  margin-right: 22px;
+  .text:nth-child(1):hover,
+}
+  .text:nth-child(1):hover {
+    animation: wobbleAnimation .5s infinite ease-in-out  alternate;
 }
 
-.section4:hover {
-  opacity: 1;
-
+.text:nth-child(2):hover {
+    animation: wobbleAnimation .5s infinite ease-in-out  alternate;
 }
-.section5:hover {
-  opacity: 1;
 
+.text:nth-child(3):hover {
+    animation: wobbleAnimation .5s infinite ease-in-out  alternate;
+}
+
+.text:nth-child(4):hover {
+    animation: wobbleAnimation .5s infinite ease-in-out  alternate;
+}
+
+.text:nth-child(5):hover {
+    animation: wobbleAnimation .5s infinite ease-in-out  alternate;
+}
+
+.text:nth-child(6):hover {
+    animation: wobbleAnimation .5s infinite ease-in-out  alternate;
+}
+
+.text:nth-child(7):hover {
+    animation: wobbleAnimation .5s infinite ease-in-out  alternate;
+}
+
+.text:nth-child(8) :hover{
+    animation: wobbleAnimation .5s infinite ease-in-out  alternate;
+}
+
+.text:nth-child(9) :hover{
+    animation: wobbleAnimation .5s infinite ease-in-out alternate;
+}
+
+.text:nth-child(10):hover {
+    animation: wobbleAnimation .5s infinite ease-in-out  alternate;
+}
+
+.text:nth-child(11):hover{
+    animation: wobbleAnimation .5s infinite ease-in-out  alternate;
+}
+
+.text:nth-child(12):hover{
+    animation: wobbleAnimation .5s infinite ease-in-out  alternate;
+}
+
+.text:nth-child(13):hover{
+  animation: wobbleAnimation .5s infinite ease-in-out  alternate;
+}
+
+@keyframes wobbleAnimation {
+    0%, 100% {
+        transform: rotate(18deg);
+    }
+    25% {
+        transform: rotate(-25deg);
+    }
+    50% {
+        transform: rotate(21deg);
+    }
+    75% {
+        transform: rotate(-35deg);
+    }
+}
+
+@media (max-width: 768px) {
+  .text  {
+  font-size: 95%;
+  }
+  .section1 {
+    height: 121px;
+  }
+}
+
+.section1:hover {
+  filter:hue-rotate(31deg)
 }
