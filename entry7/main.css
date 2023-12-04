@@ -130,3 +130,26 @@ h3 {
     }
 }
 
+
+.image-container {
+  display: inline-block;
+  margin: 2px;
+  position: relative;
+}
+
+
+
+.txt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 450px; 
+  height: 450px; 
+  display: none;
+  box-sizing: border-box;
+  transition: 3s;
+}
+
+.image-container:hover .txt {
+  display: block;
+}
