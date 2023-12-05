@@ -26,7 +26,7 @@
   }
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: lemonchiffon;
     text-align: center;
 }
 .container {
@@ -264,9 +264,9 @@ body {
 .bg3 {
     display:flex;
     flex-direction: row;
-    width: 50vw; 
+    width: 99.9%; 
     position: relative;
-    background-color:black;
+    background-color:lemonchiffon;
 }
 .bg3 img {
     position: flex;

@@ -37,9 +37,9 @@
     top: 50px;
     left: 50px;
 }
-.hover-area1:hover + .hidden-image,
-.hover-area2:hover + .hidden-image {
-    display: block;
+.hover-area1:hover ~ .hidden-image,
+.hover-area2:hover ~ .hidden-image {
+   display: block;
 }
 
 .teddy{
