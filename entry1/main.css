@@ -32,6 +32,11 @@
     left: 50px;
 }
 
+.hover-area1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
 .hover-area1:hover + .hidden-image,
 .hover-area2:hover + .hidden-image {
     display: block;
