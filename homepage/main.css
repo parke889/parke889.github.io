@@ -59,7 +59,7 @@ flex-direction: column;
 
 .entries{
     background-color: bisque;
-    width:100vw; 
+    width:100%; 
     justify-content: center;
     justify-items: center;
     position: absolute;
@@ -70,7 +70,7 @@ flex-direction: column;
 }
 
 .item-1, .item-2, .item-3, .item-4, .item-5, .item-6, .item-7, .item-8, .item-9,.item-10{
-    width: 88px;
+
     margin:5px;
 
 }
