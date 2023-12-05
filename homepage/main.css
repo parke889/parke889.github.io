@@ -69,10 +69,11 @@ flex-direction: column;
 }
 
 .item-1, .item-2, .item-3, .item-4, .item-5, .item-6, .item-7, .item-8, .item-9,.item-10{
-
     margin:5px;
 
 }
 
-
+.item-1:hover, .item-2:hover,.item-3:hover, .item-4:hover, .item-5:hover, .item-6:hover, .item-7:hover, .item-8:hover, .item-9:hover, .item-10:hover {
+    transform:scale(1.3)
+}
 
