@@ -23,3 +23,20 @@
     top: 0;
     left: 4px;
 }
+
+
+.hidden-image {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.hover-area1:hover + .hidden-image,
+.hover-area2:hover + .hidden-image {
+    display: block;
+}
+
+.teddy{
+    font-size: 17px;
+}
