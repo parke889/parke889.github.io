@@ -58,7 +58,6 @@ flex-direction: column;
 }
 
 .entries{
-    background-color: bisque;
     width:100%; 
     justify-content: center;
     justify-items: center;
